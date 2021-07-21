@@ -15,8 +15,8 @@ import gc
 try:
 	with tf.device('/device:GPU:0'):
 		#get all directories of generated images
-		pathToDiplomaDir = os.path.join("/opt/workspace/host_storage_hdd", "slike")
-		pathGeneratedImages = os.path.join(pathToDiplomaDir, "SlikeZaUcenje", "diplomaKnjiznjica", "224 new generator hands")
+		pathToDiplomaDir = os.path.join("/storage/user/blazo-workspace/Diploma/Pictures/SlikeZaUcenje/diplomaKnjiznjica")
+		pathGeneratedImages = os.path.join(pathToDiplomaDir, "224 new generator")
 		allBooks = os.listdir(pathGeneratedImages)
 
 

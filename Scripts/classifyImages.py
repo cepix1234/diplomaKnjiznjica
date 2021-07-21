@@ -14,9 +14,9 @@ import tensorflow_hub as hub
 try:
 	with tf.device('/device:GPU:3'):
 		#get all directories of generated images
-		pathToDiplomaDir = os.path.join("/opt/workspace/host_storage_hdd", "slike")
+		pathToDiplomaDir = os.path.join("/home/blaz/Diploma/Pictures/SlikeZaUcenje/diplomaKnjiznjica/")
 		#pathGeneratedImages = os.path.join(pathToDiplomaDir, "TestSlike224", "TestPictures2RanTrueUnity")
-		pathGeneratedImages = os.path.join(pathToDiplomaDir, "SlikeZaTestiranje")
+		pathGeneratedImages = os.path.join(pathToDiplomaDir, "Test slike")
 		allBooks = os.listdir(pathGeneratedImages)
 
 		#filter out files inside the generated images directory 
