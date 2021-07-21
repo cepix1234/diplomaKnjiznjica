@@ -41,6 +41,18 @@ try:
 		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/inception_v3/feature_vector/4", trainable= True)
 		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/nasnet_large/classification/5", trainable= True)
 		modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/resnet_v2_152/classification/4", trainable= True)
+		
+		
+		# Alternative models to test
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/tf2-preview/mobilenet_v2/classification/4", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/efficientnet/b0/classification/1", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/tf2-preview/inception_v3/classification/4", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/tensorflow/resnet_50/classification/1", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/5", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/cropnet/classifier/cassava_disease_V1/1", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/inception_v3/classification/5", trainable= True)
+		#modul_layer = hub.KerasLayer("https://tfhub.dev/google/imagenet/mobilenet_v3_large_100_224/classification/5", trainable= True)
+		
 
 		# image_size = tuple(
 		#       modul_layer._func.__call__  # pylint:disable=protected-access
